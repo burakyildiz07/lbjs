@@ -8,5 +8,8 @@
 <body>
     <h3>LARAVEL+BOOTSTRAP+JS Combo</h3>
     @yield('content')
+    <script>
+        window.alert('Sana mesajım var!!!');
+    </script>
 </body>
 </html>
