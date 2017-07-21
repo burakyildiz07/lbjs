@@ -8,8 +8,14 @@
 <body>
     <h3>LARAVEL+BOOTSTRAP+JS Combo</h3>
     @yield('content')
-    <script>
-        window.alert('Sana mesajım var!!!');
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+            //JQuery'i de deneyip bonus olarak ajax ile get post deneyelim
+            alert('adem');
+
+        });
     </script>
 </body>
 </html>
