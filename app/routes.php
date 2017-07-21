@@ -15,3 +15,7 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('/deneme', function(){ //deneme viewını çağıracak route
+    return View::make('deneme');
+});
