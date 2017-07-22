@@ -19,3 +19,6 @@ Route::get('/', function()
 Route::get('/deneme', function(){ //deneme viewını çağıracak route
     return View::make('deneme');
 });
+
+Route::get('/ajax', 'AjaxController@index');
+Route::post('/ajax', 'AjaxController@dondur');
